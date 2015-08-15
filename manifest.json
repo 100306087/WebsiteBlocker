@@ -1,0 +1,23 @@
+{
+  "name": "facebook blocker",
+  "description": "Make the current page red",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    // "scripts": ["background.js"],
+    // "persistent": false
+    "page":"background.html"
+  },
+  "content_scripts":[
+    {
+    "matches":["https://www.facebook.com/"],
+    "js":["myscript.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Block the facebook"
+  },
+  "manifest_version": 2
+}
