@@ -7,7 +7,8 @@ You should use this chrome plugin to help block the websites.
 
 Here are the steps to install the plugin:
 
-1. $ git clone https://github.com/g41903/WebsiteBlocker.git
+1. Open the terminal and type
+$ git clone https://github.com/g41903/WebsiteBlocker.git
 
 2. Visit chrome://extensions in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox:  The menu's icon is three horizontal bars. and select Extensions under the Tools menu to get to the same place).
 
